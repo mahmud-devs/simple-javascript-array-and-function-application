@@ -39,8 +39,9 @@ function namta(num1, num2) {
     return sum;
 }
 
-namta(55, 98);
+let sumTotal = namta(55, 98);
+
 
 for (i = 0; i <= 10; i++) {
-    console.log(`${i} X ${sum} = ${i*sum}`);
+    console.log(`start here ${i} X ${sumTotal} = ${i*sumTotal}`);
 }
